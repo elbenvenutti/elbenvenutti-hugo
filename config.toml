@@ -1,6 +1,68 @@
 baseurl = "http://elbenvenutti.github.io/"
 languageCode = "en-uk"
 title = "Isma Pérez"
+copyright = "©2016 Isma Perez"
 
-# Theme related config
+theme = "hyde-y"
 
+# disqusShortname = ""
+
+[permalinks]
+post = "/:year/:month/:day/:slug/"
+code = "/:slug/"
+
+[taxonomies]
+tag = "tags"
+topic = "topics"
+
+[author]
+email = "pb.ismael@gmail.com"
+
+#
+## All parameters below here are optional and can be mixed and matched.
+##
+[params]
+# You can use markdown here.
+brand = "Isma Pérez"
+topline = "I do stuff with code and people"
+footline = "code with <i class='fa fa-heart'></i>"
+
+# Sidebar position
+# false, true, "left", "right"
+sidebar = "left"
+
+# Text for the top menu link, which goes the root URL for the site.
+# Default (if omitted) is "Home".
+home = "home"
+
+# Select a syntax highight.
+# Check the static/css/highlight directory for options.
+highlight = "default"
+
+# Google Analytics.
+googleAnalytics = ""
+
+# Sidebar social links.
+github = "elbenvenutti" # Your Github profile ID
+bitbucket = "benvenutti" # Your Bitbucket profile ID
+linkedin = "ismaelpb" # Your LinkedIn profile ID (from public URL)
+googleplus = "" # Your Google+ profile ID
+facebook = "" # Your Facebook profile ID
+twitter = "elbenvenutti" # Your Twitter profile ID
+youtube = ""  # Your Youtube channel ID
+flattr = ""  # populate with your flattr uid
+flickr = "" # Your Flickr profile ID
+vimeo = "" # Your Vimeo profile ID
+
+# Sidebar RSS link: will only show up if there is a RSS feed
+# associated with the current page
+rss = true
+
+[blackfriday]
+angledQuotes = true
+fractions = false
+hrefTargetBlank = false
+latexDashes = true
+plainIdAnchors = true
+extensions = []
+extensionmask = []
