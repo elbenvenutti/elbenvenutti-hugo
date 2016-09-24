@@ -2,7 +2,9 @@ language: go
 install: go get -v github.com/spf13/hugo
 script:
   - hugo
-  - cd public && git commit -am "autobuild" && git push
+  - cd publi
+  - git commit -am "autobuild"
+  - git push
 notifications:
     email:
         on_failure: always
