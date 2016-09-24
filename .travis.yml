@@ -2,9 +2,13 @@ language: go
 install: go get -v github.com/spf13/hugo
 script:
   - hugo
-  - cd publi
+  - cd public
   - git commit -am "autobuild"
   - git push
+branches:
+  only:
+    - travis
+    - master
 notifications:
     email:
         on_failure: always
