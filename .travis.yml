@@ -1,0 +1,11 @@
+language: go
+install: go get -v github.com/spf13/hugo
+script:
+  - ./build.sh
+branches:
+  only:
+    - travis
+    - master
+notifications:
+    email:
+        on_failure: always
