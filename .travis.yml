@@ -1,10 +1,7 @@
 language: go
 install: go get -v github.com/spf13/hugo
 script:
-  - hugo
-  - cd public
-  - git commit -am "autobuild"
-  - git push
+  - ./build.sh
 branches:
   only:
     - travis
