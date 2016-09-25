@@ -18,8 +18,10 @@ But I was barely using the Content Management features of the thing itself.
 Most content was static (hardly ever changed) and then some custom modules.
 Not exactly what a CMS should be used for.
 
-So I didn't want to use Wordpress, Drupal or any other CMS for building this site.
-I am an advocate of using *the simplest thing that does the job*, and it's time to practice what I preach.
+Then I learnt about Ruby on Rails, and found an amazing framework for developing web apps. I coded a few static pages and I was in the opposite situation.
+
+So I didn't want to use Wordpress, Drupal or any other CMS for building this simple site, and I have been reading about _static site generators_ and the concept sounded really interesting.
+I am an advocate of using *the right tool for the job*, and it's time to practice what I preach.
 
 I googled a bit about the subject, found [many alternatives](https://www.staticgen.com/) and chose [Hugo](http://gohugo.io).
 Why? Easy to install, well documented, can be an excuse for learning go and _does what it says on the tin_.
@@ -44,11 +46,11 @@ hugo new post/build-a-site-with-hugo
 
 This has created a basic hugo site structure, and then our first piece of content. This blog post.
 It is a markdown file under ``content/post/build-this-site.md``.
-Next thing is to edit it with my favourite text editor (vim) and append some content to the bottom of the file.
+Next thing is to edit it with my text editor and append some content to the bottom of the file.
 
 Hugo does not ship with a default theme, so now  I need a theme
-While I could build one from scratch, I would really like to have something that *looks good*.
-Not to mention that my _designer abilities_ are way worse than my coding skills.
+While I could build one from scratch, a ready made theme will spare me some hours and will make me able to publish the site sooner.
+Not to mention that having something that _looks good_ is a plus.
 I headed to the themes gallery, browse a bit and chose hyde-y.
 The theme's page suggests to git clone it into your themes directory, but nesting git repos is not the best idea.
 Git submodules are a better choice in this case (note to self: write a post about git submodules):
