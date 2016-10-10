@@ -40,7 +40,7 @@ home = "home"
 highlight = "default"
 
 # Google Analytics.
-googleAnalytics = ""
+googleAnalytics = "UA-85478853-1"
 
 # Sidebar social links.
 github = "elbenvenutti" # Your Github profile ID
